@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/css/style.css">
+    <link rel="icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="source/css/bootstrap.css" rel="stylesheet">
+    <link href="source/css/fontawesome-all.css" rel="stylesheet">
+    <link href="source/css/swiper.css" rel="stylesheet">
+	<link href="source/css/magnific-popup.css" rel="stylesheet">
+	<link href="source/css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+    <script src="source/js/main.js"></script>
+    <script src="source/js/jquery.min.js"></script> 
+    <script src="source/js/popper.min.js"></script> 
+    <script src="source/js/bootstrap.min.js"></script> 
+    <script src="source/js/jquery.easing.min.js"></script> 
+    <script src="source/js/jquery.countdown.min.js"></script> 
+    <script src="source/js/swiper.min.js"></script> 
+    <script src="source/js/jquery.magnific-popup.js"></script> 
+    <script src="source/js/validator.min.js"></script> 
+    <script src="source/js/scripts.js"></script> 
+    <title>STOP-COVID-19.KZ</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="h2">#birgemiz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="./index.html" class="nav-link">Басты</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Контактілер</a></li>
+                    <li class="nav-item"><a href="#coronaspreads" class="nav-link">Біз туралы</a></li>
+                    <li class="nav-item"><a href="#off" class="nav-link">Қызметтер</a></li>
+                    <li class="nav-item"><a href="./table.html" class="nav-link">COVID-19 есебі</a></li>
+                    <li class="nav-item"><a href="./answers.html" class="nav-link">Q&A</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <canvas id="myChart" width="600" height="400"></canvas>
+   </div>
+    <section  class="about">
+        <div class="container-fluid">
+            <div class="text-center alert">
+                <div class="col-12">
+                    <h1 class="display-6"><b>COVID-19 Коронавирус дегеніміз не?</h1>
+                </div>
+                <div class="col-12">
+                    <p class="about__text"><b>COVID‑19</b> – <span class="about__color">соңғысы тудырған </span>
+                        жұқпалы ауру ашық коронавирустар. <br> 2019 жылдың <span class="about__color">желтоқсанында
+                        </span> .
+                        Қытайдың Ухань қаласында індет басталғанға дейін <br> жаңа вирус пен ауру туралы ештеңе
+                        белгілі болған жоқ,<br> бірақ содан бері бүкіл әлемге таралып, 2019 жылы <span
+                            class="about__color">коронавирустық пандемияға әкелді - 2020</span> .</p>
+                </div>
+                <div class="col-12">
+                    <a href="https://www.coronavirus2020.kz/ru/important" class="about__href"><i
+                            class="far fa-play-circle"></i> Толығырақ біліңіз</a>
+                    <a href="https://www.youtube.com/watch?v=vD0oJNDh77c" class="about__href1"><i class="far fa-play-circle"></i> Бейнені қараңыз</a>
+                </div>
+                <div class="col-12">
+                    <p class="about__text_"><em>Дүниежүзілік денсаулық <span class="about__color">сақтау ұйымының (ДДҰ)
+                                веб-сайттарынан алынған ақпарат</span> <br> және <span
+                                class="about__color">coronavirus2020.kz</span></em></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="text-center alert">
+                <div class="col-12">
+                    <h1 class="display-6 contact__title"><b>Үшін байланыс орталығы <br> коронавирус</h1>
+                </div>
+                <div class="col-12">
+                    <p class="contact__text">Сұрақтарды қабылдауға арналған ресми арна және <br> Қазақстандағы
+                        коронавирусқа арналған қосымшалар</p>
+                </div>
+                <div class="col-12">
+                    <div class="btn__info">
+                        <a type="button" class="btn btn-warning btn-lg page-scroll" href="./question.html">Өтінішіңізді жіберіңіз</a>
+                        <a type="button" class="btn btn-info btn-lg" href="./question.html#details-lightbox">Қорғау кеңестері</a>
+                    </div>
+                    </div>                    
+                    </div> 
+                </div>
+            </div>
+    </section>
+
+    <section  id="coronaspreads">
+        <div class="container-fluid">
+            <div class="text-center alert">
+                <div class="col-12">
+                    <h1 class="spreads__title">COVID-19 қалай жұғады?</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/infected.jpg" class="spreads__img">
+                        <div class="card-body">
+                            <h4 class="card-title">Жөтел инфекциясы</h4>
+                            <p class="card-text">Егер адам жұқтырған адамнан 1,5 метрден аз қашықтықта болса, инфекция
+                                жөтелу арқылы пайда болады.</p>
+                            <a href="#">Ары қарай оқу<i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/infected2.jpg" class="spreads__img">
+                        <div class="card-body">
+                            <h4 class="card-title">Қол алысумен</h4>
+                            <p class="card-text">Пандемия кезінде қол алысудан аулақ болу керек, себебі бұл ең көп
+                                таралған себептердің бірі.</p>
+                            <a href="#">Ары қарай оқу<i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/infected3.jpg" class="spreads__img">
+                        <div class="card-body">
+                            <h4 class="card-title">Ашық контакт</h4>
+                            <p class="card-text">Ауру негізінен адамнан адамға жұқтырған адам шығаратын ұсақ тамшылар
+                                арқылы жұғады.</p>
+                            <a href="#">Ары қарай оқу<i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="symptoms">
+        <div class="container">
+
+            <div class="row left">
+
+                <div class="col-md-6 symptoms__title">
+                    <h2 class="symptoms__title__sub">COVID-19 белгілері</h2>
+                    <p class="symptoms__text">Коронавирустық инфекция COVID-19 әртүрлі топтарға әсер етеді <br> әртүрлі
+                        дәрежедегі адамдар. Жұқтырған адамдардың көпшілігінің ауруы жеңіл және орташа ауырлықта болады
+                        және ауруханаға жатқызуды қажет етпейді. <br> Егер сізде аурудың ауыр түрінің белгілері болса,
+                        дереу медициналық көмекке жүгініңіз. Емханаға немесе ауруханаға барар алдында қоңырау шалыңыз
+                        және барғаныңыз туралы хабарлаңыз
+                    </p>
+                    <br>
+                </div>
+
+                <div class="col-lg-3 symptoms__cart">
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> Температуралар</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> Құрғақ жөтел</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> ШАРШАУ</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> ИІСІН ЖОҚТАУ</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> ТЕРІ бөртпелері</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 symptoms__cart">
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> Тамақ ауруы</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> Диарея</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> Конъюнктивит</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> Ентігу</p>
+                    </div>
+                    <br>
+                    <div class="card-symptoms">
+                        <p class='card-symptoms__title'><i class="far fa-check-square"></i> сөйлеу ақаулары</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="safe">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-lg-3 safe__cart ">
+                    <br>
+                    <div class="card-safe">
+                        <p><img src="img/browser.png" class="safe__icon" alt=""> Үйде бол</p>
+                    </div>
+                    <br>
+                    <div class="card-safe">
+                        <p><img src="img/hand-sanitizer.png" class="safe__icon" alt=""> Қолыңызды сабынмен жуыңыз</p>
+                    </div>
+                    <br>
+                    <div class="card-safe">
+                        <p><img src="img/people.png" class="safe__icon" alt=""> Өзін-өзі оқшаулау</p>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-lg-3 safe__cart">
+                    <br>
+                    <div class="card-safe">
+                        <p><img src="img/face-mask.png" class="safe__icon" alt=""> Қолдарыңызбен бетіңізді ұстамаңыз</p>
+                    </div>
+                    <br>
+                    <div class="card-safe">
+                        <p><img src="img/face-mask.png" class="safe__icon" alt=""> Маска киіңіз</p>
+                    </div>
+                    <br>
+                    <div class="card-safe">
+                        <p><img src="img/people.png" class="safe__icon" alt=""> Көпшіліктен аулақ болыңыз</p>
+                    </div>
+                </div>
+                <div class="col-md-6 safe__title">
+                    <h2 class="safe__title__sub">Өзіңізді COVID-19-дан қалай қорғауға болады</h2>
+                    <p class="safe__text">Коронавирустық инфекция COVID-19 әртүрлі топтарға әсер етеді әртүрлі
+                        дәрежедегі адамдар. Жұқтырған адамдардың көпшілігінің ауруы жеңіл және орташа ауырлықта болады
+                        және ауруханаға жатқызуды қажет етпейді. Егер сізде аурудың ауыр түрінің белгілері болса, дереу
+                        медициналық көмекке жүгініңіз. Емханаға немесе ауруханаға барар алдында қоңырау шалыңыз және
+                        барғаныңыз туралы хабарлаңыз
+                    </p>
+                    <br>
+                </div>
+
+                <div class="basic-4">
+                    <div class="container">
+                        <div class="row">
+                                <div class="image-container">
+                                    <div class="video-wrapper">
+                                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=ocZW3glEXsc" data-effect="fadeIn">
+                                            <img class="img-fluid" src="img/contact.jpg" alt="alternative">
+                                            <span class="video-play-button">
+                                                <span></span>
+                                            </span>
+                                        </a>
+                                    </div> 
+                                </div> 
+            
+            
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+
+
+            </div>
+        </div>
+    </section>
+    <section id="ourteam">
+        <div class="container-fluid">
+            <div class="text-center alert">
+                <div class="col-12">
+                    <h1 class="ourteam__title">Біздің команда COVID-19-ға қарсы</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row padding">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/doc1.jpg" class="ourteam__img">
+                        <div class="card-body">
+                            <h2>Қоспанов Нұрсұлтан Айдарханұлы</h2>
+                            <p class="our__text">Қан тамырлары хирургы</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/doc2.jpg" class="ourteam__img">
+                        <div class="card-body">
+                            <h2>Саржанова Сәуле Мырзабекқызы</h2>
+                            <p class="our__text">Невропатолог</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/doc3.jpg" class="ourteam__img">
+                        <div class="card-body">
+                            <h2>Кононенко Андрей Николаевич</h2>
+                            <p class="our__text">Нарколог, психиатр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/doc4.jpg" class="ourteam__img">
+                        <div class="card-body">
+                            <h2>Гайдай <br> Андрей Николаевич</h2>
+                            <p class="our__text">Гинеколог</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="shoping">
+        <div class="container-fluid">
+            <div class="text-center alert">
+                <div class="col-12">
+                    <h1 class="shop__title">COVID-19-ға қарсы дәрі</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/lec1.jpg" class="lec__img">
+                        <div class="card-body">
+                            <hr>
+                            <h2>COVID-19 вакцинасы</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/lec2.jpg" class="lec__img">
+                        <div class="card-body">
+                            <hr>
+                            <h2>COVID-19 вакцинасы</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/kazvak-astana.png" class="lec__img">
+                        <div class="card-body">
+                            <hr>
+                            <h2>COVID-19 вакцинасы</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="text-center alert">
+        <div class="col-12">
+            <h1 class="ttt__title">Ресми ресурстар мен қолданбалар</h1>
+            <p class="ttt_text">Маңызды ресурстар мен жасалған қолданбаларды пайдаланыңыз Қазақстан Республикасы
+                Денсаулық <br> сақтау министрлігі еліміздің IT қоғамдастығымен бірлесіп вирустың таралуын болдырмау</p>
+        </div>
+    </div>
+    <section id="off">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-6 off__title">
+                    <h2 class="off__title__sub"><span class="about__color">РЕСМИ:</span> Коронавирусқа қатысты жағдай
+                    </h2>
+                    <p class="off__text">Коронавирусқа қатысты жағдай туралы ресми сайт <br>
+                        бойынша барлық қажетті ақпаратты жинақтайды<br>
+                        ережелерге сәйкес төтенше жағдай<br>
+                        карантин кезіндегі мінез-құлық, қабылданған шаралар<br>
+                        мемлекеттер коронавируспен күресу үшін<br>
+                        желідегі таралуды теріске шығару<br>
+                        жалған ақпарат.
+                    </p>
+                    <br>
+                    <a href="https://www.coronavirus2020.kz"><span
+                            class="about__color">https://www.coronavirus2020.kz</span> </a>
+                    <br>
+                    <br>
+                    <p>Telegram арнасы: <span class="about__color">coronavirus2020_kz</span>@</p>
+                </div>
+                <div class="col-lg-6 off__cart">
+                    <img src="img/smartmockups_k7zqfhl.webp" class="off_img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="off1">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-lg-6 off1__cart">
+                    <img src="img/rsz_smartmockups_k8p.webp" class="off1_img">
+                </div>
+                <div class="col-md-6 off1__title">
+                    <h2 class="off1__title__sub">Электронды сауалнама
+                        жылдам сынақ үшін
+                        коронавирус инфекциясы</h2>
+                    <p class="off1__text">Анкета: <span class="about__color">https://formcovid.eisz.kz</span>
+                    </p>
+                    <p class="of1__text">Онлайн сауалнаманы толтырғандардың барлығы қабылданады
+                        эпидемиологиялық сынама және жүйе бойынша таңдалатындар
+                        болуына экспресс-тест тапсыра алады
+                        коронавирус инфекциясы. Барлығы 260-ын тексеру жоспарлануда
+                        мың Нұр-Сұлтан және Алматы қалаларының тұрғындары.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="off2">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-6 off2__title">
+                    <h2 class="off2__title__sub">Коронавирус - жедел желі</h2>
+                    <p class="off2__text">Telegram Bot - <span class="about__color">@kz_hls_bot</span>
+                    </p>
+                    <br>
+                    <p class="of1__text">Ұлттық денсаулық сақтау орталығы (NCPH)
+                        Telegram ботын іске қосты, оның көмегімен пайдаланушылар пайдалана алады
+                        COVID коронавирустық инфекциясы туралы сұрақтарға жауап алыңыз
+                        -2019 ж.
+                    </p>
+                    <br>
+                    <a type="button" class="btn btn-danger" href="https://t.me/kz_hls_bot">Ботты ашу</a>
+                </div>
+                <div class="col-lg-6 off__cart">
+                    <img src="img/smartmockups_k7z0a10.webp" class="off2_img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="off3">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-lg-6 off3__cart">
+                    <img src="img/Screen_Shot_2020-03-.webp" class="off3_img">
+                </div>
+                <div class="col-md-6 off3__title">
+                    <h2 class="off3__title__sub">Коронавирус туралы анықтама Қазақстанда</h2>
+                    <p class="off3__text">Telegram арнасы - @anticoronakaz
+                    </p>
+                    <p class="of3__text">
+                        IT-штабының коронавируспен күресу жөніндегі ресми арнасы
+                        Қазақстан.</p>
+                    <br>
+                    <br>
+                    <a type="button" class="btn btn-danger" href="https://t.me/anticoronakaz">
+                        Ботқа өтіп, жазылыңыз</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="off4">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-6 off4__title">
+                    <h2 class="off4__title__sub">Көтерілген нысандардың картасы
+                        COVID-19-ға назар аударыңыз
+                        egov.kz:</h2>
+                    <p class="off4__text">Тіркелу/тұру орындары картада белгіленген
+                        жұқтырғандармен байланыста болған азаматтар.
+                        Азамат үйде немесе болуы мүмкін
+                        стационарлық карантин.
+                    </p>
+
+                    <br>
+                    <a type="button" class="btn btn-danger" href="https://egov.kz/cms/ru/articles/covid-map">Картаны ашу</a>
+                </div>
+                <div class="col-lg-6 off4__cart">
+                    <img src="img/smartmockups_k89nl2z (1).webp" class="off4_img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="off5">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-6 off5__title">
+                    <h2 class="off5__title__sub">Онлайн карта
+                        эпидемиологиялық
+                        мемлекеттер
+                        Қазақстандағы коронавирус туралы</h2>
+                    <p class="off5__text">Қазақстандағы коронавирус жағдайын бақылау
+                        сағат сайын жаңартылады.
+                    </p>
+                    <br>
+                    <a type="button" class="btn btn-danger" href="https://coronavirus.jhu.edu/map.html">Картаны ашу</a>
+                </div>
+                <div class="col-lg-6 off5__cart">
+                    <img src=" img/smartmockups_k7z23hv.webp" class="off5_img">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid ">
+        <div class="container-fluid">
+            <div class="row padding text-center">
+                <div class="col-12">
+                    <h2>Біздің байланыстарымыз</h2>
+                </div>
+                <div class="col-12  ">
+                    <a href="https://twitter.com/hashtag/covid_kz?src=hashtag_click"><i class="fab fa-twitter icon"></i></a>
+                    <a href="https://www.instagram.com/covid19_kazakhstan/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/results?search_query=%D0%9A%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81+%D0%B2+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5&sp=CAISBAgFEAE%253D"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/MinzdravRK"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <!-- <script src="node_modules/chart.js/dist/Chart.bundle.min.js"></script> -->
+    <script src="./source/js/script.js"></script>
+</body>
+
+</html>

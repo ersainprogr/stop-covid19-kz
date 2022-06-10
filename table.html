@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="source/css/style.css" />
+		<link rel="icon" href="img/favicon.ico"/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<script src="source/js/main.js"></script>
+		<title>КЕСТЕ</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<a href="#" class="navbar-brand"
+					><img src="img/logo.png" alt="" />#birgemiz</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarResponsive"
+				>
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a href="./index.html" class="nav-link">Басты</a></li>
+						<li class="nav-item"><a href="./index.html#contact" class="nav-link">Контактілер</a></li>
+						<li class="nav-item"><a href="./index.html#coronaspreads" class="nav-link">Біз туралы</a></li>
+						<li class="nav-item"><a href="./index.html#off" class="nav-link">Қызметтер</a></li>
+						<li class="nav-item"><a href="./table.html" class="nav-link">COVID-19 есебі</a></li>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="carousel slide" data-ride="carousel" id="slides">
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/slider1.jpg" alt="" />
+					<div class="carousel-caption">
+						<h1 class="display-2">COVID-19</h1>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="img/slider3.jpg" alt="" />
+					<div class="carousel-caption">
+						<h1 class="display-2">COVID-19</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="table__voice">
+			<div id="invoice">
+				<h3>СОҢҒЫ ДЕРЕКТЕР:</h3>
+				<table class="table">
+					<thead>
+						<h4>COVID-19 (ПЦР+)</h4>
+						<tr>
+							<th>Қала</th>
+							<th>Ауру</th>
+							<th>Қалпына келтірілді</th>
+							<th>Қайтыс болды*</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>БАРЛЫҒЫ :</td>
+							<td>1305723</td>
+							<td>1381003</td>
+							<td>13661</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Нұр-Сұлтан қаласы</td>
+							<td>239830</td>
+							<td>245755</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Алматы қаласы</td>
+							<td>238334</td>
+							<td>243189</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Шымкент қаласы</td>
+							<td>49090</td>
+							<td>54707</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Ақмола облысы</td>
+							<td>68924</td>
+							<td>71823</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Ақтөбе облысы</td>
+							<td>43909</td>
+							<td>47093</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Алматы облысы</td>
+							<td>69554</td>
+							<td>76583</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Атырау облысы</td>
+							<td>62253</td>
+							<td>66093</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Шығыс Қазақстан облысы</td>
+							<td>59626</td>
+							<td>71765</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Жамбыл облысы</td>
+							<td>26783</td>
+							<td>33647</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Батыс Қазақстан облысы</td>
+							<td>49656</td>
+							<td>50890</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Қарағанды ​​облысы</td>
+							<td>151465</td>
+							<td>154827</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Қостанай облысы</td>
+							<td>53531</td>
+							<td>59577</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Қызылорда облысы</td>
+							<td>24114</td>
+							<td>25555</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Маңғыстау облысы</td>
+							<td>27750</td>
+							<td>30687</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Павлодар облысы</td>
+							<td>78043</td>
+							<td>81234</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Солтүстік Қазақстан облысы</td>
+							<td>44383</td>
+							<td>46108</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Түркістан облысы</td>
+							<td>18478</td>
+							<td>21470</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<caption>
+						*28 мамырда берілді
+					</caption>
+				</table>
+
+				<h3>СОҢҒЫ ДЕРЕКТЕР:</h3>
+				<table class="table">
+					<thead>
+						<h4>COVID-19 (ПЦР-)</h4>
+						<tr>
+							<th>Қала</th>
+							<th>Ауру</th>
+							<th>Қалпына келтірілді</th>
+							<th>Қайтыс болды*</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>БАРЛЫҒЫ :</td>
+							<td>89126</td>
+							<td>83726</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Нұр-Сұлтан қаласы</td>
+							<td>7936</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Алматы қаласы</td>
+							<td>7408</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Шымкент қаласы</td>
+							<td>6824</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Ақмола облысы</td>
+							<td>3621</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Ақтөбе облысы</td>
+							<td>3689</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Алматы облысы</td>
+							<td>7608</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Атырау облысы</td>
+							<td>4534</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Шығыс Қазақстан облысы</td>
+							<td>12629</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Жамбыл облысы</td>
+							<td>7182</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Батыс Қазақстан облысы</td>
+							<td>2152</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Қарағанды ​​облысы</td>
+							<td>4818</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Қостанай облысы</td>
+							<td>6197</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Қызылорда облысы</td>
+							<td>1928</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Маңғыстау облысы</td>
+							<td>3464</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Павлодар облысы</td>
+							<td>3920</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Солтүстік Қазақстан облысы</td>
+							<td>2148</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Түркістан облысы</td>
+							<td>3068</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+					<caption>
+						*28 мамырда берілді
+					</caption>
+				</table>
+			</div>
+		</section>
+		<div class="btn-center">
+			<button type="button" class="btn btn-danger" onclick="generatePDF()">
+				Басып шығару үшін PDF ретінде сақтаңыз
+			</button>
+		</div>
+
+		<footer class="container-fluid">
+			<div class="container-fluid">
+				<div class="row padding text-center">
+					<div class="col-12">
+						<h2>Біздің байланыстарымыз</h2>
+					</div>
+					<div class="col-12">
+						<a href="https://twitter.com/hashtag/covid_kz?src=hashtag_click"><i class="fab fa-twitter icon"></i></a>
+						<a href="https://www.instagram.com/covid19_kazakhstan/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.youtube.com/results?search_query=%D0%9A%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81+%D0%B2+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5&sp=CAISBAgFEAE%253D"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.facebook.com/MinzdravRK"><i class="fab fa-facebook"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
