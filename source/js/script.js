@@ -31,7 +31,7 @@ var myChart = new Chart(ctx, {
         },
         title: {
             display: true,
-            text: 'Елдер бойынша инфекциялар саны',
+            text: 'Қалалар бойынша инфекциялар саны',
             position: 'top',
             fontSize: 16,
             padding: 20
